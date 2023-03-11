@@ -1,0 +1,18 @@
+header {
+
+    .navegacion {
+        background-color: #ecc42c;
+    }
+    
+    @each $elem, $size in $navSize {
+        .#{$elem} {
+            font-size: $size;
+        }
+        @if (#{$elem} == logo-text){
+            .#{$elem} {
+                font-weight: bold;
+            }
+        }
+    }
+
+}

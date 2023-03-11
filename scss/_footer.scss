@@ -1,0 +1,22 @@
+
+footer {
+    background-color: #fff;
+
+    .facebook:hover {
+        color: #3b5998;
+    }
+
+    .instagram:hover {        
+        color: #d6249f;
+        color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        color: 0px 3px 10px rgba(0,0,0,.25);
+    }
+
+    .twitter:hover {
+        color: #00adb5;
+    }
+
+    .linkedin:hover {
+        color: #0e76a8;
+    }
+}
