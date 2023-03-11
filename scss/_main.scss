@@ -1,0 +1,49 @@
+main {
+
+    @each $num, $size in $headerSize {
+        h#{$num} {
+            font-size: $size;
+        }
+    }
+
+    h1 {
+        font-weight: bold;
+    }
+
+    .float {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        bottom: 40px;
+        right: 40px;
+        background-color: black;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+    }
+    .float:hover{
+        background-color: #1bd741;
+    }
+    .my-float {
+        margin-top: 10px;
+    }
+
+    .imgGridCard {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .imgCarousel {
+        height: 400px;
+        object-fit: contain;
+    }
+
+
+    .formulario {
+        background-color: white
+    }
+
+}

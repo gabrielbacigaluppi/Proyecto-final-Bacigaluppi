@@ -1,99 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
-
-.float {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: black;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-}
-
-.my-float {
-    margin-top: 16px;
-}
-
-
-.imgCarousel {
-    height: 400px;
-    object-fit: contain;
-    /* border: black; */
-}
-
-.nav_under:hover {
-    text-decoration: underline;
-}
-
-
-.imgGridCard {
-    height: 300px;
-    object-fit: cover;
-}
-
-.fondo {
-    background-image: url(../img/oficinas.jpg);
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: 1500px auto;
-    background-clip: content-box;
-}
-
-.formulario {
-    background-color: white
-}
-
-.navegacion {
-
-    background-color: #ecc42c;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap");
 body {
-    /* background-color: #080F0F; */
-    /* background-color: #FCEFEF; */
-    /* background-color: #000000; */
-    background-color: #f1f1f1;
-    /* background-color: #FFF2F1; */
-    /* background-color: #ECF8F8; */
-    font-family: 'Archivo', sans-serif;
-    color: #06070E;
+  background-color: #f1f1f1;
+  font-family: "Archivo", sans-serif;
+  color: #06070E;
+}
+body .fondo {
+  background-image: url(../img/oficinas.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 1500px auto;
+  background-clip: content-box;
+}
+
+header .navegacion {
+  background-color: #ecc42c;
+}
+header .logo-text {
+  font-size: 0.4rem;
+}
+header .nav-text {
+  font-size: 1rem;
+}
+header .text-new {
+  font-size: 0.6rem;
+}
+header .logo-text {
+  font-weight: bold;
+}
+
+main h1 {
+  font-size: 1.5rem;
+}
+main h2 {
+  font-size: 1.3rem;
+}
+main h3 {
+  font-size: 1.1rem;
+}
+main h1 {
+  font-weight: bold;
+}
+main .float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 40px;
+  background-color: black;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+main .float:hover {
+  background-color: #1bd741;
+}
+main .my-float {
+  margin-top: 10px;
+}
+main .imgGridCard {
+  height: 300px;
+  object-fit: cover;
+}
+main .imgCarousel {
+  height: 400px;
+  object-fit: contain;
+}
+main .formulario {
+  background-color: white;
 }
 
 footer {
-    background-color: #fff;
+  background-color: #fff;
+}
+footer .facebook:hover {
+  color: #3b5998;
+}
+footer .instagram:hover {
+  color: #f09433;
+  color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888",GradientType=1 );
+}
+footer .twitter:hover {
+  color: #00adb5;
+}
+footer .linkedin:hover {
+  color: #0e76a8;
 }
 
-/* 
-style="background-color: #f1f1f1;"
-style="background-color: rgba(0, 0, 0, 0.2);" */
-
-.logo-text {
-    font-size: 0.4rem;
-    font-weight: bold;
-}
-
-.nav-text {
-    font-size: 1rem;
-}
-
-h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-h2 {
-    font-size: 1.3rem;
-}
-
-h3 {
-    font-size: 1.1rem;
-}
-
-.text-new {
-    font-size: 0.6rem;
-}
+/*# sourceMappingURL=estilo.css.map */

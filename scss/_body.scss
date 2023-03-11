@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+body {
+    background-color: #f1f1f1;
+    font-family: 'Archivo', sans-serif;
+    color: #06070E;
+    
+    .fondo {
+        background-image: url(../img/oficinas.jpg);
+        background-color: #cccccc;
+        background-repeat: no-repeat;
+        background-size: 1500px auto;
+        background-clip: content-box;
+    }
+}
