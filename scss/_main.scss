@@ -4,11 +4,14 @@ main {
         h#{$num} {
             font-size: $size;
         }
+        @if (h#{$num} == h1){
+            h#{$num} {
+                font-weight: bold;
+            }
+        }
     }
 
-    h1 {
-        font-weight: bold;
-    }
+    
 
     .float {
         position: fixed;
@@ -23,10 +26,11 @@ main {
         font-size: 30px;
         box-shadow: 2px 2px 3px #999;
         z-index: 100;
+            &:hover{
+                background-color: #1bd741;
+            }
     }
-    .float:hover{
-        background-color: #1bd741;
-    }
+    
     .my-float {
         margin-top: 10px;
     }

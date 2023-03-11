@@ -8,11 +8,11 @@ header {
         .#{$elem} {
             font-size: $size;
         }
+        @if (#{$elem} == logo-text){
+            .#{$elem} {
+                font-weight: bold;
+            }
+        }
     }
-
-    .logo-text {
-        font-weight: bold;
-    }
-
 
 }
