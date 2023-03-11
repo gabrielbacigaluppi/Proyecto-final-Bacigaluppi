@@ -11,6 +11,15 @@ body .fondo {
   background-size: 1500px auto;
   background-clip: content-box;
 }
+@media (max-width: 1200px) {
+  body .fondo {
+    background-image: url(../img/oficinas.jpg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: auto 1200px;
+    background-clip: content-box;
+  }
+}
 
 header .navegacion {
   background-color: #ecc42c;
