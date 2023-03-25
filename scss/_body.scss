@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
 body {
     background-color: #f1f1f1;
@@ -22,4 +23,29 @@ body {
             background-clip: content-box;
         }
     }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+body {
+    background-color: #f1f1f1;
+    font-family: 'Archivo', sans-serif;
+    color: #06070E;
+    
+    .fondo {
+        background-image: url(../img/oficinas.jpg);
+        background-color: #cccccc;
+        background-repeat: no-repeat;
+        background-size: 1500px auto;
+        background-clip: content-box;
+    }
+
+    @media (max-width: 1200px){
+        .fondo {
+            background-image: url(../img/oficinas.jpg);
+            background-color: #cccccc;
+            background-repeat: no-repeat;
+            background-size: auto 1200px;
+            background-clip: content-box;
+        }
+    }
+>>>>>>> 3bf1bfef0d013ab9beb6a7f2536dbd6dd5cb14f6
 }

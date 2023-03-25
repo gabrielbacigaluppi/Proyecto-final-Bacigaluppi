@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
 
     .navegacion {
@@ -16,4 +17,23 @@ header {
     }
 
 
+=======
+header {
+
+    .navegacion {
+        background-color: #ecc42c;
+    }
+    
+    @each $elem, $size in $navSize {
+        .#{$elem} {
+            font-size: $size;
+        }
+        @if (#{$elem} == logo-text){
+            .#{$elem} {
+                font-weight: bold;
+            }
+        }
+    }
+
+>>>>>>> 3bf1bfef0d013ab9beb6a7f2536dbd6dd5cb14f6
 }
